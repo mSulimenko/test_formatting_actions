@@ -1,10 +1,11 @@
 name: dotnet format
 
 on:
-  push:
-    branches: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - main
+    paths:
+      - '**/*.cs'
 
 jobs:
   check-format:
