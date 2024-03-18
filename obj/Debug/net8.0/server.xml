@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>server</name>
+    </assembly>
+    <members>
+        <member name="T:BatteryDevicesMaster.Server.Controllers.EchoController">
+            <summary>
+                Controller for '/ping' path
+            </summary>
+        </member>
+        <member name="M:BatteryDevicesMaster.Server.Controllers.EchoController.Echo(BatteryDevicesMaster.Server.Controllers.EchoBody)">
+            <summary>
+                Echo-server handler
+            </summary>
+            <response code="200">Request message</response>
+            <response code="400">Bad request</response>
+        </member>
+        <member name="T:BatteryDevicesMaster.Server.Controllers.EchoBody">
+            <summary>
+                Echo request/response body
+            </summary>
+        </member>
+        <member name="P:BatteryDevicesMaster.Server.Controllers.EchoBody.Message">
+            <summary>
+                Echo message
+            </summary>
+        </member>
+        <member name="T:BatteryDevicesMaster.Server.Controllers.ErrorResponse">
+            <summary>
+                Error response with message
+            </summary>
+        </member>
+        <member name="P:BatteryDevicesMaster.Server.Controllers.ErrorResponse.Message">
+            <summary>
+                Error message
+            </summary>
+        </member>
+        <member name="T:BatteryDevicesMaster.Server.Controllers.PingController">
+            <summary>
+                Controller for '/ping' path
+            </summary>
+        </member>
+        <member name="M:BatteryDevicesMaster.Server.Controllers.PingController.Ping">
+            <summary>
+                Check server health
+            </summary>
+            <response code="200">Server is healthy</response>
+        </member>
+    </members>
+</doc>
