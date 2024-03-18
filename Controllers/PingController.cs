@@ -17,6 +17,7 @@ public class PingController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK)]
     public ActionResult Ping  ()
     {
+    
         return Ok();
 
     }
