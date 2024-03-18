@@ -18,7 +18,7 @@ public class PingController : ControllerBase
     public ActionResult Ping  ()
     {
     
-        return Ok();
+        return Ok ();
 
 
     }
