@@ -19,7 +19,10 @@ jobs:
 
       - name: Install dotnet-format tool
         run: dotnet tool install -g dotnet-format
-
+        
+      - name: Restoring dotnet
+        run: dotnet restore
+        
       - name: Check out code
         uses: actions/checkout@v2
 
