@@ -13,6 +13,7 @@ namespace BatteryDevicesMaster.Server.Controllers;
 [ApiController]
 [Route("/api/[controller]")]
 public class EchoController : ControllerBase
+
 {
     /// <summary>
     ///     Echo-server handler
