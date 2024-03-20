@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using BatteryDevicesMaster.Server.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace BatteryDevicesMaster.Server.Controllers;
 
 /// <summary>
