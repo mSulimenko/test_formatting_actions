@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 
 
-namespace BatteryDevicesMaster.Server.Controllers;
+namespace BatteryDevicesMaster.Server.Controllers ;
 
 /// <summary>
 ///     Controller for '/ping' path
