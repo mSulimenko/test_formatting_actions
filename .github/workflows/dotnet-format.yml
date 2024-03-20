@@ -25,3 +25,4 @@ jobs:
         
       - name: Run dotnet format
         run: dotnet format server.csproj --verify-no-changes
+        working-directory: ./server
