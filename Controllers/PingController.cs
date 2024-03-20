@@ -15,7 +15,7 @@ public class PingController : ControllerBase
     /// <response code="200">Server is healthy</response>
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult Ping()
+    public ActionResult Ping ()
     {
         return Ok();
 
